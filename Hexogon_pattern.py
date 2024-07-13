@@ -20,7 +20,7 @@ def print_hexagon_grid(rows, columns):
             print(" \\___/ ", end="")
         print()
 
-    for _ in range(rows):
+    for i in range(rows):
         print_hexagon_top()
         print_hexagon_middle()
         print_hexagon_bottom()
